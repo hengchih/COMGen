@@ -1,6 +1,6 @@
 [
   {
-    "description": "頁面的table是否存在",
+    "description": "測試table是否有綁定資料",
     "assertions": [
       {
         "passed": true
@@ -9,6 +9,6 @@
         "passed": true
       }
     ],
-    "duration": 630260211
+    "duration": 738960965
   }
 ]

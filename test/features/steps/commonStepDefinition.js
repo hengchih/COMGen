@@ -5,11 +5,12 @@ var commonStepDefinition = function () {
 
     Given(/瀏覽"([^"]*)"頁面/, function (type, callback) {
         var stand, Stand, type = type.replace(/\s/g, '');
-        switch (true) {
-            case (/^test/i.test(type)):
-                Stand = require(constants.PO.test);
-                break;
-        }//end switch
+        Stand = require(constants.PO[type]);
+        //switch (true) {
+        //    case (/^test/i.test(type)):
+        //        Stand = require(constants.PO.test);
+        //        break;
+        //}//end switch
 
         stand = new Stand();
         this.stand = stand;

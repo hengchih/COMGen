@@ -6,7 +6,8 @@ config = {
         'features/**/*.feature'
     ],
     suites: {
-        all: 'features/**/*.feature'
+        all: 'features/**/*.feature',
+        nsTable: 'features/nsTable.feature'
     },
     capabilities: {
         browserName: 'chrome'
