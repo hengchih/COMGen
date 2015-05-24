@@ -1,0 +1,17 @@
+{
+  "name": "COMGen",
+  "version": "1.0.0",
+  "description": "generate component for angularjs and web component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "component"
+  ],
+  "author": "heng",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.3.15"
+  }
+}

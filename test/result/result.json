@@ -1,0 +1,14 @@
+[
+  {
+    "description": "頁面的table是否存在",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 630260211
+  }
+]
