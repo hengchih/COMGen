@@ -10,7 +10,7 @@ var NineYi;
         angular.module('NineYi.Directives', []).directive('nsTable', function () {
             return {
                 restrict: 'EA',
-                templateUrl: '/COMGen.git/workaround/Typescripts/Components/nsTable/nsTableTemplate.html',
+                templateUrl: '/COMGen/workaround/Typescripts/Components/nsTable/nsTableTemplate.html',
                 scope: {},
                 link: function (scope, element, attrs) {
                     console.log('table');

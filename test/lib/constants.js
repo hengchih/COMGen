@@ -1,6 +1,6 @@
 module.exports = {
-    VIEWLOCATION: 'http://localhost:63342/COMGen.git/workaround/Views',
-    DOMAIN: 'http://localhost:63342/COMGen.git/workaround',
+    VIEWLOCATION: 'http://localhost:63342/COMGen/workaround/Views',
+    DOMAIN: 'http://localhost:63342/COMGen/workaround',
     URL_MAP: {
 
     },
